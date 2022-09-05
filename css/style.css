@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+} 
+.navbar{
+	display: flex;
+	justify-content: space-between; 
+}
+.menu-item li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 16px;
+	margin-left: 16px;
+	margin-top: 30px;
+
+}
+.menu-item li a{
+	font-size: 18px;
+}
+.h-btn{
+	margin-top: 20px;
+}
+.h-btn button{
+	background-color: #2e367d;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 25px;
+	border: none;
+	font-size: 16px;
+} 
+
+.banner{
+	width: 100%;
+}
+.b-content{
+	display: flex;
+}
+.b-left{
+	padding-top: 100px;
+	flex-basis: 50%;
+}
+.b-right{
+	flex-basis: 50%;
+}
+.b-right img{
+	width: 100%;
+}
+.b-left h1{
+	font-size: 45px;
+	font-weight: 700;
+	color: #1e266d;
+	margin-bottom: 20px;
+	line-height: 52px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 0;
+}
+.b-left p{
+	font-size: 18px;
+	color: #1e266d;
+	font-weight: 300;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 20px;
+
+}
+.banner-btn{
+	background-color: #2e367d;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 24px;
+	padding-right: 25px;
+	border: none;
+	font-size: 16px;
+	border-radius: 4px; 
+
+}
+.banner-btn:hover{
+	background: red;
+	cursor: pointer; 
+}
+.success{
+	width: 100%;
+	padding: 100px 0;
+}
+.success-content{
+	display: flex;
+}
+.success-item-1{
+	flex-basis: 33%;
+	background-color: #F9799A;
+	color: white;
+	border-radius: 8px;
+    padding: 20px 15px 10px 15px;
+    margin-right: 10px;
+    padding: 50px 50px;
+}
+.success-item-1 h2{
+	color: #FFFFFF;
+	margin: 0px 0px 10px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.success-item-1 p{
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 0px 10px;
+	font-weight: 200;
+
+}
+.success-item-2{
+	flex-basis: 33%;
+	background-color: #61C4D8;
+	color: white;
+	border-radius: 8px;
+    padding: 20px 15px 10px 15px;
+    margin-right: 10px;
+    padding: 50px 50px;
+}
+.success-item-2 h2{
+	color: #FFFFFF;
+	margin: 0px 0px 10px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.success-item-2 p{
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 0px 10px;
+	font-weight: 200;
+}
+.success-item-3{
+	flex-basis: 33%;
+	background-color: #1E266D;
+	color: white;
+	border-radius: 8px;
+    padding: 20px 15px 10px 15px;
+    margin-right: 10px;
+    padding: 50px 50px;
+}
+.success-item-3 h2{
+	color: #FFFFFF;
+	margin: 0px 0px 10px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.success-item-3 p{
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 0px 10px;
+	font-weight: 200;
+}
+.strategy{
+	width: 100%;
+	padding: 80px 0px;
+}
+.strategy-content{
+	display: flex;
+}
+.strategy-item{
+	flex-basis: 25%;
+	font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.address{
+	width: 100%;
+	padding: 100px 0;
+}
+.address-content{
+	display: flex;
+	background-color: #2e367d;
+	padding: 80px 60px;
+	border-radius: 14px;
+}
+.address-item{
+	flex-basis: 50%;
+}
+.address-item h2{
+	color: white;
+	margin-bottom: 16px;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+.address-item p{
+	color: white;
+	margin-bottom: 6px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.9;
+}
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+}
+.f-content{
+	display: flex;
+}
+.f-item{
+	flex-basis: 25%;
+}
+.f-item h3{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 16px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+.f-item p{
+	color: #91a3bb;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+.f-item ul li{
+	list-style: none;
+}
+.f-item ul li a{
+	color: #91a3bb;
+	font-size: 18px;
+	line-height: 1.6;
+	transition: 0.5s; 
+}
+.f-item ul li a:hover{
+	margin-left: 12px;
+	transition: 0.5s;
+	color: black;
+}
+.banner-6 .b-content .b-left h1{
+	text-align: center;
+}
+.end{
+	width: 100%;
+}
+.end .end-p img{
+	width: 1140px;
+}
